@@ -16,3 +16,4 @@ php_fpm_service:
       - sls: php.ng.fpm.install
     - watch:
       - pkg: php_install_fpm
+      - pkg: php_install_php
